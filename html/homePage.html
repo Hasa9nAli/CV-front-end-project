@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Oswald&family=Rubik:wght@500&display=swap" rel="stylesheet">
+    
+    <meta name="description" content="Free Web tutorials">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Hasan Ali Mohammed Arslan">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZRAM</title>
+</head>
+<body class="bodyHomePage">
+<header class="headerHome">
+    
+    <a href="../html/homePage.html" class="logoHomePage">
+       <h1 class="Logo"><span class="z">Z</span>Ram</h1>
+
+    </a>
+    <nav class="navBar" id="navOfHomePage">
+        <a href="#services" class="navSection">Services</a>
+        <a href="#project" class="navSection">Project</a>        
+        <a href="#aboutUs" class="navSection">About Us</a>
+        <a href="#">Contact Us</a>
+     </nav>
+     
+     <div class="icon" style="display: flex;">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fa-solid fa-chevron-down " id="cart-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+    <div class="search-form hiddenOnDown" id="searchForm">
+        <input type="search" id="search-box" placeholder="search here... " autocomplete="on" autocapitalize>
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+    <div class="down-items-container ">
+        <h2 >Hasan</h2>
+        <img src="../img/sigmund-UmaojK7erQo-unsplash.jpg" alt="">
+        <button class="btn-cp" id="btn-chpass" >Change password</button>
+        <div class="chpass" id="hiddenChpass">
+            <input type="password" placeholder="Current Password" /> 
+            <input type="password" placeholder="New Password" /> 
+            <input type="password" placeholder="Comfirm Password"/> 
+        </div>
+        <button class="btn-so">Confirm</button>
+        <a href="../html/beforeLog.html" class="btn-so">Sign Out</a>
+    </div>
+</header>
+<!-- start Hero -->
+    <section class="sectionHeroHome">
+        <div class="perantOfVideoHero">
+        <video   video src="../img/production ID-5190556.mp4" muted="true" loop autoplay="true"></video>
+        </div>
+        <div class="text">
+            <h2>Welcome Hasan </h2> 
+            <h3>Exploring The World</h3>
+            <p>enjoy viewing many website designs and you can hair me .</p>
+            <a href="#aboutUs">About Us</a>
+        </div>
+        <div class="overlay hidden"></div>
+
+    </section>
+    <section class="sectionOfServices" id = "services">
+        <h2 class="nameOfSection" style="color:#050505">OUR SERVICES</h2>
+    <div class="sectionGrid" >
+       <div class="developerInSideSectionOfServices"  id ="frontEnd">
+            <h2 class="nameOfPartInService">Front-End Development</h2>
+            <div class="containerOfServiceSection">
+            
+                <img  class="databaseimg" src="../img/front-end.png" alt="front-end img" >
+            <div id="fontOfFront">
+                <p class="partOfskills">CSS<i class="fa-solid fa-check"></i></p>
+                <p class="partOfskills">HTML<i class="fa-solid fa-check"></i></p>
+                <p class="partOfskills">JS<i class="fa-solid fa-check"></i></p>
+                <p class="partOfskills">React<i class="fa-solid fa-check"></i></p>
+            </div>
+        </div>
+        </div>
+    
+        <div class="developerInSideSectionOfServices " id ="backEnd">
+            <h2 class="nameOfPartInService">Back-End Development</h2>
+            <div class="containerOfServiceSection">
+            
+                <img  class="databaseimg" src="../img/back-end.png" alt="front-end img" >
+            <div>
+                <p class="partOfskills">NODE JS     <i class="fa-solid fa-check"></i></p>
+                <p class="partOfskills">MANGO DB    <i class="fa-solid fa-check"></i></p>
+                <p class="partOfskills">EXPRESS JS      <i class="fa-solid fa-check"></i></p>
+                <p class="partOfskills">EJS <i class="fa-solid fa-check"></i></p>
+            </div>
+        </div>
+        </div>
+        <div class="developerInSideSectionOfServices"  id ="dataBase">
+                <h2 class="nameOfPartInService">Data Base</h2>
+                <div class="containerOfServiceSection">
+                    
+                    <img  class="databaseimg" src="../img/flame-working-with-data.png" alt="front-end img" >
+                <div>
+                    <p class="partOfskills">SQL     <i class="fa-solid fa-check"></i></p>
+                    <p class="partOfskills">DB DESIGN    <i class="fa-solid fa-check"></i></p>
+                    <p class="partOfskills">MANGO DB       <i class="fa-solid fa-check"></i></p>
+                    <p class="partOfskills">mySQL <i class="fa-solid fa-check"></i></p>
+                </div>
+            </div>
+        </div>
+        <div class="developerInSideSectionOfServices"  id ="fullStack">
+            <h2 class="nameOfPartInService">Full-Stack Development</h2>
+            <div class="containerOfServiceSection">
+            
+                <img  class="databaseimg" src="../img/full-stack.png" alt="front-end img" >
+            <div>
+                <p class="partOfskills">HTML CSS JS REACT     <i class="fa-solid fa-check"></i></p>
+                <p class="partOfskills">NODE JS MANGO DB     <i class="fa-solid fa-check"></i></p>
+                <p class="partOfskills">EJS    <i class="fa-solid fa-check"></i></p>
+                <p class="partOfskills">SECURITY <i class="fa-solid fa-check"></i></p>
+                
+    
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+<!-- end the section of our Services -->
+<!-- start the section of project -->
+<section class="sectionOfProject" id="project">
+    <div class="Project">
+        <h2 class="nameOfSection" style="color:#DDE6EE">Our Project</h2>
+    </div>
+  <div class="gridProject">
+    <div class="insideProjectSection">
+        <a class="partOfProject" href="#" target="_blank">
+            <i class="fa-solid fa-gamepad"></i>  
+            <h3>GAME</h3>
+            <p>This part introduces many of the games that we offer and our work in the field of games etc</p>             
+
+        </a>
+    </div>
+    <!-- ----------------- -->
+    <div class="insideProjectSection">
+        <a class="partOfProject" href="#" target="_blank">
+            <i class="fa-solid fa-layer-group"></i>
+           
+            <h3 >Data Structure</h3>
+            <p>This part introduces many
+                Some types of data structures such as stack, queue, linked-list, etc </p>             
+
+        </a>
+    </div>
+    <!-- -------------------- -->
+    <div class="insideProjectSection">
+        <a class="partOfProject" href="#" target="_blank">
+            <i class="fa-solid fa-mountain"></i> 
+            <h3>Front-End </h3>
+            <p>This part introduces many of the games that we offer and our work in the field of games </p>             
+
+        </a>
+    </div>
+    <!-- -------------------------- -->
+    <div class="insideProjectSection">
+        <a class="partOfProject" href="#" target="_blank">
+            <i class="fa-solid fa-server"></i> 
+            <h3>Back-End</h3>
+            <p>This part introduces many of the games that we offer and our work in the field of games </p>             
+
+        </a>
+    </div>
+    <div class="insideProjectSection">
+        <a class="partOfProject" href="#" target="_blank">
+            <i class="fa-solid fa-database"></i> 
+            <h3>Data Base</h3>
+            <p>This part offers many
+                From many projects I used SQL, Access, Mango DB and more and more </p>             
+
+        </a>
+    </div>
+    <div class="insideProjectSection">
+        <a class="partOfProject" href="#" target="_blank">
+            <i class="fa-solid fa-terminal "></i> 
+            <h3>Full Stack</h3>
+            <p>This part introduces many of the games that we offer and our work in the field of games </p>             
+
+        </a>
+    </div>
+    <div class="insideProjectSection">
+        <a class="partOfProject" href="#" target="_blank">
+            <i class="fa-brands fa-python"></i> 
+            <h3>Python</h3>
+            <p>This part offers many
+                projects in python like game using pygame library,data Structure etc </p>             
+
+        </a>
+    </div>
+    <div class="insideProjectSection">
+        <a class="partOfProject" href="#" target="_blank">
+            <i class="fa-solid fa-c"></i> 
+            <h3>C/C++</h3>
+            <p>This part offers many
+                From projects in a language such as the compiler,Software System etc  </p>             
+
+        </a>
+    </div>
+    
+</div>
+<!-- end the section of project -->
+<!-- ----------------------------------------------------------------- -->
+<!-- start the section of about us  -->
+
+</section>
+<section class="ABOUT-US" id="aboutUs">
+    <h2 class="nameOfSection" style="color:#201b01">ABOUT US</h2>
+    <div class="partOfAboutUs">
+       
+            <img src="../img/Hasan.jpg" alt="Hasan" >
+        
+       <div class ="nameAndDescriptionPerson">
+                <h2>Hasan Ali</h2>
+                <p>
+                    Hi i have 22 years old and i'am student in Software Engineering Department in University Of mosul and i'am front end developer
+                    my skills are HTML CSS JS C++ PYTHON and i worked on many project like many view in front-end development, simple game using JS, perfect project engineering using Enterprise Artchecture
+                    and more and more .
+
+                </p>
+                <div>
+                <a  href="../html/cvPage.html">MY CV</a>
+                <div class="personalSocial"> 
+                    <a href="https://www.linkedin.com/in/hasan-ali-9096a51b9/" target="_blank" title="LinkedIn" class="fa-brands fa-linkedin"></a>
+                    <a href="https://www.instagram.com/has9n22/"target="_blank" title="instagram" class="fa-brands fa-instagram"></a>
+                    <a href="https://github.com/Hasa9nAli" target="_blank" title="github" class="fa-brands fa-github"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="partOfAboutUs">
+        <img src="../img/Hasan.jpg" alt="Hasan" >
+   <div class ="nameAndDescriptionPerson">
+            
+    <h2>Mohammed Arslan</h2>
+            <p>
+                Hi i have 22 years old and i'am student in Software Engineering Department in University Of mosul and i'am front end developer
+                my skills are HTML CSS JS C++ PYTHON and i worked on many project like many view in front-end development, simple game using JS, perfect project engineering using Enterprise Artchecture
+                and more and more .
+
+            </p>
+            <div>
+            <a  href="../html/cvPage.html">MY CV</a>        
+            <div class="personalSocial">
+                <a href="https://www.linkedin.com/in/hasan-ali-9096a51b9/" target="_blank" title="LinkedIn" class="fa-brands fa-linkedin"></a>
+                <a href="https://www.instagram.com/has9n22/"target="_blank" title="instagram" class="fa-brands fa-instagram"></a>
+                <a href="https://github.com/Hasa9nAli" target="_blank" title="github" class="fa-brands fa-github"></a>
+            </div>
+        </div>
+        
+
+    </div>
+   
+</div>
+
+
+</section>
+<footer class="footer"> 
+    <a href="../html/homePage.html" class="logofoot"><span class="z">Z</span>Ram</a>
+    <div class="socailMedia">
+        <a href="https://www.linkedin.com/in/hasan-ali-9096a51b9/" target="_blank" title="LinkedIn"class="fa-brands fa-linkedin"></a>
+        <a href="https://www.instagram.com/has9n22/"target="_blank" title="instagram" class="fa-brands fa-instagram"></a>
+        <a href="https://github.com/Hasa9nAli" target="_blank" title="github" class="fa-brands fa-github"></a>
+
+
+    </div>
+    <div class="footerSections">
+        <a href="#services">Services</a>
+        <a href="#project">Project</a>
+        <a href="#aboutUs">About Us</a>
+        <a href="../html/cvPage.html">Contact Us</a>
+
+    </div>
+    <div class="reservedFooter">
+        <p>All Rights Reserved to &copy; Zram Team</p>
+    </div>
+</footer>
+<script src="../js/home.js"></script>
+</body>
+</html>
